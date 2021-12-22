@@ -7,12 +7,14 @@ import { useState } from "react/cjs/react.development";
 
 const HomeScreen= ()=> {
     const navigation = useNavigation()
-
+    const widthAndHeight = 250
+    const series = [123, 321, 123, 789, 537]
+    const sliceColor = ['#F44336','#2196F3','#FFEB3B', '#4CAF50', '#FF9800']
    const [state, setstate] = useState()
    console.log(state)
 return <SafeAreaView style={styles.safe}>
-    <View style={{backgroundColor:'red',width:412,height:50,justifyContent:'center',alignItems:'center'}}>
-        <Text style={{fontSize:24,color:'white'}}>Header</Text>
+    <View style={{justifyContent:'center',alignItems:'center'}}>
+    
     </View>
     <View style={{justifyContent:'center',alignItems:'center',marginTop:100}}>
         <View style={{backgroundColor:'red',borderRadius:150,height:220,width:220,justifyContent:'center',alignItems:'center'}}>
