@@ -14,7 +14,7 @@ const HomeScreen= ()=> {
    console.log(state)
 return <SafeAreaView style={styles.safe}>
     <View style={{justifyContent:'center',alignItems:'center'}}>
-    
+        <Text>Deneme</Text>
     </View>
     <View style={{justifyContent:'center',alignItems:'center',marginTop:100}}>
         <View style={{backgroundColor:'red',borderRadius:150,height:220,width:220,justifyContent:'center',alignItems:'center'}}>
